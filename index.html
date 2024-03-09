@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <h1>
+        <img src="Imagenes/Vector.png" class="letraA">
+    </h1>
+    <main class="main">
+        <section>
+            <textarea id="texto-encriptado" class="campo-texto" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="btn">
+                <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="campo-mensaje">
+            <textarea id="campo-mensaje" class="mensaje"></textarea>
+
+            <div id="imagenAB">
+                <img src="Imagenes/lupa.png" class="lupa" alt="nene buscando con lupa">  
+                <p class="men1">Ningún Mensaje fue encontrado</p>
+                <p class="men2">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+
+            <button class="btnCopiar" onclick="btnCopiar()">Copiar</button>
+            
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

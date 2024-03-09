@@ -1,0 +1,104 @@
+.letraA{
+    margin: 40px 40px;
+    width: 50px;
+    height: 42px;
+}
+
+#texto-encriptado{
+    font-size: 32px;
+    font-weight: 400;
+    font-style: inherit;
+    color: #0A3871;
+    width: 800px;
+    height: 500px;
+    margin: 50px;
+}
+
+.btn{
+    width: 680px;
+    height: 67px;
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+    position: absolute;
+}
+
+.btnEncriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    background: #0A3871;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+
+.btnDesencriptar{
+    width: 328px;
+    height: 67px;
+    border: 1px;
+    border-color: #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    background: #D8DFE8;
+    font-size: 20px;
+    color: #0A3871; 
+}
+
+
+.mensaje{
+    position: absolute;
+    width: 500px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: inherit;
+}
+
+.lupa{
+    position: absolute;
+    width: 336px;
+    height: 304px;  
+    top: 283px;
+    left: 1080px;  
+}
+
+.men1{
+    position: absolute;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+   top: 590px;
+   left: 1050px;
+}
+
+.men2{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+   top: 650px;
+   left: 1050px;
+}
+
+.btnCopiar{
+    width: 328px;
+    height: 67px;
+    border: 1px;
+    border-color: #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    background: #D8DFE8;
+    font-size: 20px;
+    color: #0A3871;
+    position: absolute;
+    top: 885px;
+    left: 1100px;
+}
